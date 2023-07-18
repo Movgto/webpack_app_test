@@ -1,0 +1,24 @@
+*,
+*:after,
+*:before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dfdfdf;
+}
+
+#msg-ctr {
+    background-color: #3b3b3b;
+    color: #dfdfdf;
+    padding: 2rem;
+}
